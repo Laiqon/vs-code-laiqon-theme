@@ -3,7 +3,7 @@
     "displayName": "Laiqon Theme",
     "publisher": "Laiqon",
     "author": "Laiqon",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A modern and elegants themes pack.",
     "license": "MIT",
     "icon": "icon.png",
@@ -20,21 +20,21 @@
         "theme",
         "dark",
         "light",
+        "amethyst",
         "carbon",
         "graphite",
         "midnight",
         "winter",
-        "amethyst",
         "soft",
         "productive",
         "modern"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Laiqon/vs-code-laiqon-theme"
+        "url": "https://github.com/Laiqon/vscode-laiqon-theme/"
     },
     "bugs": {
-        "url": "https://github.com/Laiqon/vs-code-laiqon-theme/issues"
+        "url": "https://github.com/Laiqon/vscode-laiqon-theme/issues"
     },
     "homepage": "https://github.com/Laiqon/",
     "contributes": {
