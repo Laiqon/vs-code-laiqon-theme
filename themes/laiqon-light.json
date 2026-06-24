@@ -1,0 +1,139 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Laiqon Light",
+    "type": "light",
+    "include": "./base/light_plus.json",
+    "colors": {
+        // Title bar
+        "titleBar.activeBackground": "#fdfdfd",
+        "titleBar.inactiveBackground": "#fdfdfd",
+        "titleBar.border": "#d1d9e0",
+        // Activity bar icons
+        "activityBar.border": "#d1d9e0",
+        "activityBar.background": "#fdfdfd",
+        "activityBar.foreground": "#7A5AF8", // primary
+        "activityBar.inactiveForeground": "#6B7280",
+        "activityBar.activeBorder": "#7A5AF8", // primary
+        "activityBarBadge.background": "#7A5AF8", // primary
+        "activityBarBadge.foreground": "#FFFFFF",
+        // Breadcrumb path
+        "breadcrumb.background": "#fdfdfd",
+        "breadcrumb.foreground": "#6C727F",
+        "breadcrumb.focusForeground": "#7A5AF8", // primary
+        "breadcrumb.activeSelectionForeground": "#7A5AF8", // primary
+        // Sidebar (Explorer, etc.)
+        "sideBar.background": "#F5F7FC", // secondary
+        "sideBar.border": "#d1d9e0",
+        "sideBarSectionHeader.border": "#d1d9e0",
+        // Tabs
+        "tab.activeBackground": "#fdfdfd",
+        "tab.activeForeground": "#7A5AF8", // primary
+        "tab.activeBorderTop": "#7A5AF8", // primary
+        "tab.inactiveBackground": "#FFFFFF",
+        "tab.inactiveForeground": "#6C727F",
+        "tab.hoverBackground": "#EEF1F6",
+        "tab.border": "#d1d9e0",
+        // Code editor
+        "editor.background": "#f9f9f9", // background
+        "editor.foreground": "#1F2328",
+        "editor.selectionBackground": "#7A5AF826",
+        "editor.selectionHighlightBackground": "#7A5AF812",
+        "editor.findMatchBackground": "#7A5AF84D",
+        "editor.findMatchHighlightBackground": "#7A5AF81A",
+        "editor.wordHighlightBackground": "#7A5AF80F",
+        "editorCursor.foreground": "#7A5AF8", // primary
+        // Borders between editors (tabs)
+        "editorGroup.border": "#d1d9e0",
+        "editorGroupHeader.border": "#00000000",
+        "editorGroupHeader.tabsBackground": "#F5F7FC",
+        // Bottom panel (Terminal, Problems, Output, etc.)
+        "panel.background": "#f5f5f5", // background + 1
+        "panel.border": "#d1d9e0",
+        // Bottom status bar
+        "statusBar.background": "#fdfdfd",
+        "statusBar.border": "#d1d9e0",
+        "statusBar.foreground": "#596173",
+        "statusBar.noFolderBackground": "#FFFFFF",
+        "statusBar.debuggingBackground": "#7A5AF8", // primary
+        "statusBar.debuggingForeground": "#fdfdfd",
+        // Lists (File Explorer, etc.)
+        "list.hoverBackground": "#F5F7FB",
+        "list.activeSelectionBackground": "#7A5AF860", // primary
+        "list.inactiveSelectionBackground": "#7A5AF830", // primary
+        "list.focusBackground": "#E8ECF6",
+        // Scrollbars
+        "scrollbarSlider.background": "#7A5AF830", // primary
+        "scrollbarSlider.hoverBackground": "#7A5AF860", // primary
+        "scrollbarSlider.activeBackground": "#7A5AF880", // primary
+        // Buttons
+        "button.background": "#7A5AF8", // primary
+        "button.foreground": "#FFFFFF",
+        "dropdown.background": "#FFFFFF",
+        "input.background": "#FFFFFF",
+        "textLink.foreground": "#1B76D1",
+        "focusBorder": "#00000000"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments (all)",
+            "scope": [
+                "comment",
+                "comment.block",
+                "comment.line",
+                "comment.block.documentation",
+                "comment.line.documentation"
+            ],
+            "settings": {
+                "foreground": "#4F9272",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": "string",
+            "settings": {
+                "foreground": "#EA4848",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Control Keywords",
+            "scope": [
+                "keyword.control",
+                "keyword.control.flow"
+            ],
+            "settings": {
+                "foreground": "#c04be7"
+            }
+        },
+        {
+            "name": "Methods",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#ef9b0f"
+            }
+        },
+        {
+            "name": "Namespaces",
+            "scope": [
+                "entity.name.namespace",
+                "storage.type.namespace"
+            ],
+            "settings": {
+                "foreground": "#7B8188"
+            }
+        },
+        {
+            "name": "Enum Members",
+            "scope": [
+                "variable.other.enummember"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}

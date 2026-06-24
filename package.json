@@ -1,0 +1,74 @@
+{
+    "name": "laiqon-theme",
+    "displayName": "Laiqon Theme",
+    "publisher": "Laiqon",
+    "author": "Laiqon",
+    "version": "0.0.1",
+    "description": "A modern and elegants themes pack.",
+    "license": "MIT",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#0F1115",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "extensionKind": ["ui"],
+    "categories": ["Themes"],
+    "keywords": [
+        "theme",
+        "dark",
+        "light",
+        "carbon",
+        "graphite",
+        "midnight",
+        "winter",
+        "amethyst",
+        "soft",
+        "productive",
+        "modern"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Laiqon/vs-code-laiqon-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/Laiqon/vs-code-laiqon-theme/issues"
+    },
+    "homepage": "https://github.com/Laiqon/",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Laiqon Carbon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-carbon.json"
+            },
+            {
+                "label": "Laiqon Amethyst",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-amethyst.json"
+            },
+            {
+                "label": "Laiqon Graphite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-graphite.json"
+            },
+            {
+                "label": "Laiqon Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-midnight.json"
+            },
+            {
+                "label": "Laiqon Winter",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-winter.json"
+            },
+            {
+                "label": "Laiqon Light",
+                "uiTheme": "vs",
+                "path": "./themes/laiqon-light.json"
+            }
+        ]
+    }
+}
