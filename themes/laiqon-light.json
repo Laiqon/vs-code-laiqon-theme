@@ -5,68 +5,68 @@
     "include": "./base/light_plus.json",
     "colors": {
         // Title bar
-        "titleBar.activeBackground": "#fdfdfd",
-        "titleBar.inactiveBackground": "#fdfdfd",
-        "titleBar.border": "#d1d9e0",
+        "titleBar.activeBackground": "#EBEBED",
+        "titleBar.inactiveBackground": "#EBEBED",
+        "titleBar.border": "#D1D1D6",
         // Activity bar icons
-        "activityBar.border": "#d1d9e0",
-        "activityBar.background": "#fdfdfd",
-        "activityBar.foreground": "#7A5AF8", // primary
-        "activityBar.inactiveForeground": "#6B7280",
-        "activityBar.activeBorder": "#7A5AF8", // primary
-        "activityBarBadge.background": "#7A5AF8", // primary
+        "activityBar.border": "#D1D1D6",
+        "activityBar.background": "#EBEBED",
+        "activityBar.foreground": "#FF8C42", // primary
+        "activityBar.inactiveForeground": "#6C6C70",
+        "activityBar.activeBorder": "#FF8C42", // primary
+        "activityBarBadge.background": "#FF8C42", // primary
         "activityBarBadge.foreground": "#FFFFFF",
         // Breadcrumb path
-        "breadcrumb.background": "#fdfdfd",
-        "breadcrumb.foreground": "#6C727F",
-        "breadcrumb.focusForeground": "#7A5AF8", // primary
-        "breadcrumb.activeSelectionForeground": "#7A5AF8", // primary
+        "breadcrumb.background": "#F5F5F7",
+        "breadcrumb.foreground": "#6C6C70",
+        "breadcrumb.focusForeground": "#FF8C42", // primary
+        "breadcrumb.activeSelectionForeground": "#FF8C42", // primary
         // Sidebar (Explorer, etc.)
-        "sideBar.background": "#F5F7FC", // secondary
-        "sideBar.border": "#d1d9e0",
-        "sideBarSectionHeader.border": "#d1d9e0",
+        "sideBar.background": "#FDFDFF",
+        "sideBar.border": "#D1D1D6",
+        "sideBarSectionHeader.border": "#D1D1D6",
         // Tabs
-        "tab.activeBackground": "#fdfdfd",
-        "tab.activeForeground": "#7A5AF8", // primary
-        "tab.activeBorderTop": "#7A5AF8", // primary
-        "tab.inactiveBackground": "#FFFFFF",
-        "tab.inactiveForeground": "#6C727F",
-        "tab.hoverBackground": "#EEF1F6",
-        "tab.border": "#d1d9e0",
+        "tab.activeBackground": "#F5F5F7",
+        "tab.activeForeground": "#FF8C42", // primary
+        "tab.activeBorderTop": "#FF8C42", // primary
+        "tab.inactiveBackground": "#EBEBED",
+        "tab.inactiveForeground": "#6C6C70",
+        "tab.hoverBackground": "#E5E5E7",
+        "tab.border": "#D1D1D6",
         // Code editor
-        "editor.background": "#f9f9f9", // background
-        "editor.foreground": "#1F2328",
-        "editor.selectionBackground": "#7A5AF826",
-        "editor.selectionHighlightBackground": "#7A5AF812",
-        "editor.findMatchBackground": "#7A5AF84D",
-        "editor.findMatchHighlightBackground": "#7A5AF81A",
-        "editor.wordHighlightBackground": "#7A5AF80F",
-        "editorCursor.foreground": "#7A5AF8", // primary
+        "editor.background": "#f5f7fc",
+        "editor.foreground": "#1D1D1F",
+        "editor.selectionBackground": "#FF8C4226",
+        "editor.selectionHighlightBackground": "#FF8C4212",
+        "editor.findMatchBackground": "#FF8C424D",
+        "editor.findMatchHighlightBackground": "#FF8C421A",
+        "editor.wordHighlightBackground": "#FF8C420F",
+        "editorCursor.foreground": "#FF8C42", // primary
         // Borders between editors (tabs)
-        "editorGroup.border": "#d1d9e0",
+        "editorGroup.border": "#D1D1D6",
         "editorGroupHeader.border": "#00000000",
-        "editorGroupHeader.tabsBackground": "#F5F7FC",
+        "editorGroupHeader.tabsBackground": "#EBEBED",
         // Bottom panel (Terminal, Problems, Output, etc.)
-        "panel.background": "#f5f5f5", // background + 1
-        "panel.border": "#d1d9e0",
+        "panel.background": "#EBEBED", // --depth
+        "panel.border": "#D1D1D6",
         // Bottom status bar
-        "statusBar.background": "#fdfdfd",
-        "statusBar.border": "#d1d9e0",
-        "statusBar.foreground": "#596173",
-        "statusBar.noFolderBackground": "#FFFFFF",
-        "statusBar.debuggingBackground": "#7A5AF8", // primary
-        "statusBar.debuggingForeground": "#fdfdfd",
+        "statusBar.background": "#EBEBED",
+        "statusBar.border": "#D1D1D6",
+        "statusBar.foreground": "#6C6C70",
+        "statusBar.noFolderBackground": "#EBEBED",
+        "statusBar.debuggingBackground": "#FF8C42", // primary
+        "statusBar.debuggingForeground": "#FFFFFF",
         // Lists (File Explorer, etc.)
-        "list.hoverBackground": "#F5F7FB",
-        "list.activeSelectionBackground": "#7A5AF860", // primary
-        "list.inactiveSelectionBackground": "#7A5AF830", // primary
-        "list.focusBackground": "#E8ECF6",
+        "list.hoverBackground": "#E5E5E7",
+        "list.activeSelectionBackground": "#FF8C4260", // primary
+        "list.inactiveSelectionBackground": "#FF8C4230", // primary
+        "list.focusBackground": "#E8E8EA",
         // Scrollbars
-        "scrollbarSlider.background": "#7A5AF830", // primary
-        "scrollbarSlider.hoverBackground": "#7A5AF860", // primary
-        "scrollbarSlider.activeBackground": "#7A5AF880", // primary
+        "scrollbarSlider.background": "#FF8C4230", // primary
+        "scrollbarSlider.hoverBackground": "#FF8C4260", // primary
+        "scrollbarSlider.activeBackground": "#FF8C4280", // primary
         // Buttons
-        "button.background": "#7A5AF8", // primary
+        "button.background": "#FF8C42", // primary
         "button.foreground": "#FFFFFF",
         "dropdown.background": "#FFFFFF",
         "input.background": "#FFFFFF",
@@ -113,7 +113,8 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#ef9b0f"
+                "foreground": "#ea7b48",
+                "fontStyle": "italic"
             }
         },
         {

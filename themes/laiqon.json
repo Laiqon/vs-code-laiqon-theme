@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "Laiqon Winter",
+    "name": "Laiqon",
     "type": "dark",
     "include": "./base/dark_plus.json",
     "colors": {
@@ -11,62 +11,62 @@
         // Activity bar icons
         "activityBar.border": "#0F1115",
         "activityBar.background": "#0F1115",
-        "activityBar.foreground": "#0D71FD", // primary
+        "activityBar.foreground": "#FF8C42", // primary
         "activityBar.inactiveForeground": "#D6DAE0",
-        "activityBar.activeBorder": "#0D71FD", // primary
-        "activityBarBadge.background": "#0D71FD", // primary
+        "activityBar.activeBorder": "#FF8C42", // primary
+        "activityBarBadge.background": "#FF8C42", // primary
         "activityBarBadge.foreground": "#FFFFFF",
         // Breadcrumb path
-        "breadcrumb.background": "#1C2027",
+        "breadcrumb.background": "#252527",
         "breadcrumb.foreground": "#6C727F",
-        "breadcrumb.focusForeground": "#0D71FD", // primary
-        "breadcrumb.activeSelectionForeground": "#0D71FD", // primary
+        "breadcrumb.focusForeground": "#FF8C42", // primary
+        "breadcrumb.activeSelectionForeground": "#FF8C42", // primary
         // Sidebar (Explorer, etc.)
-        "sideBar.background": "#1C2027", // secondary
+        "sideBar.background": "#252527",
         "sideBar.border": "#0F1115",
         "sideBarSectionHeader.border": "#0F1115",
         // Tabs
-        "tab.activeBackground": "#1C2027",
-        "tab.activeForeground": "#0D71FD", // primary
-        "tab.activeBorderTop": "#0D71FD", // primary
-        "tab.inactiveBackground": "#12171f",
+        "tab.activeBackground": "#252527",
+        "tab.activeForeground": "#FF8C42", // primary
+        "tab.activeBorderTop": "#FF8C42", // primary
+        "tab.inactiveBackground": "#1A1A1C",
         "tab.inactiveForeground": "#9AA3AD",
-        "tab.hoverBackground": "#1F232B",
+        "tab.hoverBackground": "#2C2C2E",
         "tab.border": "#0F1115",
         // Code editor
-        "editor.background": "#011128", // background
+        "editor.background": "#151517",
         "editor.foreground": "#D6DAE0",
-        "editor.selectionBackground": "#3B82F64D",
-        "editor.selectionHighlightBackground": "#3B82F626",
-        "editor.findMatchBackground": "#10459b59",
-        "editor.findMatchHighlightBackground": "#3B82F626",
-        "editor.wordHighlightBackground": "#3B82F61A",
-        "editorCursor.foreground": "#0D71FD", // primary
+        "editor.selectionBackground": "#FF8C4240",
+        "editor.selectionHighlightBackground": "#FF8C4220",
+        "editor.findMatchBackground": "#FF8C4259",
+        "editor.findMatchHighlightBackground": "#FF8C4220",
+        "editor.wordHighlightBackground": "#FF8C421A",
+        "editorCursor.foreground": "#FF8C42", // primary
         // Borders between editors (tabs)
-        "editorGroup.border": "#1C2027",
+        "editorGroup.border": "#252527",
         "editorGroupHeader.border": "#00000000",
         "editorGroupHeader.tabsBackground": "#00000000",
         // Bottom panel (Terminal, Problems, Output, etc.)
-        "panel.background": "#010A18", // background + 1
-        "panel.border": "#1C2027",
+        "panel.background": "#141416", // darker than --depth
+        "panel.border": "#252527",
         // Bottom status bar
         "statusBar.background": "#0F1115",
         "statusBar.border": "#20232A",
-        "statusBar.foreground": "#9AA3AD",
+        "statusBar.foreground": "#D6DAE0",
         "statusBar.noFolderBackground": "#0F1115",
-        "statusBar.debuggingBackground": "#0D71FD", // primary
-        "statusBar.debuggingForeground": "#fdfdfd",
+        "statusBar.debuggingBackground": "#FF8C42", // primary
+        "statusBar.debuggingForeground": "#1C2027",
         // Lists (File Explorer, etc.)
         "list.hoverBackground": "#0F1115",
-        "list.activeSelectionBackground": "#0D71FD50", // primary
-        "list.inactiveSelectionBackground": "#0496ff20", // primary
-        "list.focusBackground": "#1F2630",
+        "list.activeSelectionBackground": "#FF8C4250", // primary
+        "list.inactiveSelectionBackground": "#FF8C4220", // primary
+        "list.focusBackground": "#252527",
         // Scrollbars
-        "scrollbarSlider.background": "#0D71FD90", // primary
-        "scrollbarSlider.hoverBackground": "#0D71FD50", // primary
-        "scrollbarSlider.activeBackground": "#0D71FD80", // primary
+        "scrollbarSlider.background": "#FF8C4290", // primary
+        "scrollbarSlider.hoverBackground": "#FF8C4250", // primary
+        "scrollbarSlider.activeBackground": "#FF8C4280", // primary
         // Buttons
-        "button.background": "#0D71FD50", // primary
+        "button.background": "#FF8C4250", // primary
         "button.foreground": "#FFFFFF",
         "dropdown.background": "#0F1115",
         "input.background": "#0F1115",

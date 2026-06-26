@@ -3,7 +3,7 @@
     "displayName": "Laiqon Theme",
     "publisher": "Laiqon",
     "author": "Laiqon",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "A modern and elegants themes pack.",
     "license": "MIT",
     "icon": "icon.png",
@@ -20,11 +20,12 @@
         "theme",
         "dark",
         "light",
+        "laiqon",
         "amethyst",
         "carbon",
         "graphite",
-        "midnight",
-        "winter",
+        "sapphire",
+        "ruby",
         "soft",
         "productive",
         "modern"
@@ -55,19 +56,24 @@
                 "path": "./themes/laiqon-graphite.json"
             },
             {
-                "label": "Laiqon Midnight",
+                "label": "Laiqon",
                 "uiTheme": "vs-dark",
-                "path": "./themes/laiqon-midnight.json"
-            },
-            {
-                "label": "Laiqon Winter",
-                "uiTheme": "vs-dark",
-                "path": "./themes/laiqon-winter.json"
+                "path": "./themes/laiqon.json"
             },
             {
                 "label": "Laiqon Light",
                 "uiTheme": "vs",
                 "path": "./themes/laiqon-light.json"
+            },
+            {
+                "label": "Laiqon Sapphire",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-sapphire.json"
+            },
+            {
+                "label": "Laiqon Ruby",
+                "uiTheme": "vs-dark",
+                "path": "./themes/laiqon-ruby.json"
             }
         ]
     }

@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "Laiqon Midnight",
+    "name": "Laiqon Ruby",
     "type": "dark",
     "include": "./base/dark_plus.json",
     "colors": {
@@ -11,62 +11,62 @@
         // Activity bar icons
         "activityBar.border": "#0F1115",
         "activityBar.background": "#0F1115",
-        "activityBar.foreground": "#DC5C30", // primary
+        "activityBar.foreground": "#FA4F67", // primary
         "activityBar.inactiveForeground": "#D6DAE0",
-        "activityBar.activeBorder": "#DC5C30", // primary
-        "activityBarBadge.background": "#DC5C30", // primary
+        "activityBar.activeBorder": "#FA4F67", // primary
+        "activityBarBadge.background": "#FA4F67", // primary
         "activityBarBadge.foreground": "#FFFFFF",
         // Breadcrumb path
-        "breadcrumb.background": "#1C2027",
+        "breadcrumb.background": "#252527",
         "breadcrumb.foreground": "#6C727F",
-        "breadcrumb.focusForeground": "#DC5C30", // primary
-        "breadcrumb.activeSelectionForeground": "#DC5C30", // primary
+        "breadcrumb.focusForeground": "#FA4F67", // primary
+        "breadcrumb.activeSelectionForeground": "#FA4F67", // primary
         // Sidebar (Explorer, etc.)
-        "sideBar.background": "#231C26", // secondary
+        "sideBar.background": "#1E1416",
         "sideBar.border": "#0F1115",
         "sideBarSectionHeader.border": "#0F1115",
         // Tabs
-        "tab.activeBackground": "#1C2027",
-        "tab.activeForeground": "#DC5C30", // primary
-        "tab.activeBorderTop": "#DC5C30", // primary
-        "tab.inactiveBackground": "#12171f",
+        "tab.activeBackground": "#252527",
+        "tab.activeForeground": "#FA4F67", // primary
+        "tab.activeBorderTop": "#FA4F67", // primary
+        "tab.inactiveBackground": "#1A1A1C",
         "tab.inactiveForeground": "#9AA3AD",
-        "tab.hoverBackground": "#1F232B",
+        "tab.hoverBackground": "#2C2C2E",
         "tab.border": "#0F1115",
         // Code editor
-        "editor.background": "#1C161E", // background
+        "editor.background": "#0E0406",
         "editor.foreground": "#D6DAE0",
-        "editor.selectionBackground": "#3B82F64D",
-        "editor.selectionHighlightBackground": "#3B82F626",
-        "editor.findMatchBackground": "#10459b59",
-        "editor.findMatchHighlightBackground": "#3B82F626",
-        "editor.wordHighlightBackground": "#3B82F61A",
-        "editorCursor.foreground": "#DC5C30", // primary
+        "editor.selectionBackground": "#FA4F674D",
+        "editor.selectionHighlightBackground": "#FA4F6726",
+        "editor.findMatchBackground": "#FA4F6759",
+        "editor.findMatchHighlightBackground": "#FA4F6726",
+        "editor.wordHighlightBackground": "#FA4F671A",
+        "editorCursor.foreground": "#FA4F67", // primary
         // Borders between editors (tabs)
-        "editorGroup.border": "#1C2027",
+        "editorGroup.border": "#252527",
         "editorGroupHeader.border": "#00000000",
         "editorGroupHeader.tabsBackground": "#00000000",
         // Bottom panel (Terminal, Problems, Output, etc.)
-        "panel.background": "#161117", // background + 1
-        "panel.border": "#1C2027",
+        "panel.background": "#141416", // darker than --depth
+        "panel.border": "#252527",
         // Bottom status bar
         "statusBar.background": "#0F1115",
         "statusBar.border": "#20232A",
-        "statusBar.foreground": "#9AA3AD",
+        "statusBar.foreground": "#D6DAE0",
         "statusBar.noFolderBackground": "#0F1115",
-        "statusBar.debuggingBackground": "#DC5C30", // primary
+        "statusBar.debuggingBackground": "#FA4F67", // primary
         "statusBar.debuggingForeground": "#fdfdfd",
         // Lists (File Explorer, etc.)
         "list.hoverBackground": "#0F1115",
-        "list.activeSelectionBackground": "#DC5C3050", // primary
-        "list.inactiveSelectionBackground": "#DC5C3020", // primary
-        "list.focusBackground": "#1F2630",
+        "list.activeSelectionBackground": "#FA4F6750", // primary
+        "list.inactiveSelectionBackground": "#FA4F6720", // primary
+        "list.focusBackground": "#252527",
         // Scrollbars
-        "scrollbarSlider.background": "#DC5C3090", // primary
-        "scrollbarSlider.hoverBackground": "#DC5C3050", // primary
-        "scrollbarSlider.activeBackground": "#DC5C3080", // primary
+        "scrollbarSlider.background": "#FA4F6790", // primary
+        "scrollbarSlider.hoverBackground": "#FA4F6750", // primary
+        "scrollbarSlider.activeBackground": "#FA4F6780", // primary
         // Buttons
-        "button.background": "#DC5C3050", // primary
+        "button.background": "#FA4F6750", // primary
         "button.foreground": "#FFFFFF",
         "dropdown.background": "#0F1115",
         "input.background": "#0F1115",
@@ -113,7 +113,8 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#FFDE9D"
+                "foreground": "#FFDE9D",
+                "fontStyle": "italic"
             }
         },
         {

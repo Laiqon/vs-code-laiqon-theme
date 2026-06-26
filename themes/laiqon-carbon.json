@@ -17,38 +17,38 @@
         "activityBarBadge.background": "#7cb518", // primary
         "activityBarBadge.foreground": "#FFFFFF",
         // Breadcrumb path
-        "breadcrumb.background": "#1C2027",
+        "breadcrumb.background": "#252527",
         "breadcrumb.foreground": "#6C727F",
         "breadcrumb.focusForeground": "#7cb518", // primary
         "breadcrumb.activeSelectionForeground": "#7cb518", // primary
         // Sidebar (Explorer, etc.)
-        "sideBar.background": "#1C2027", // secondary
+        "sideBar.background": "#252527",
         "sideBar.border": "#0F1115",
         "sideBarSectionHeader.border": "#0F1115",
         // Tabs
-        "tab.activeBackground": "#1C2027",
+        "tab.activeBackground": "#252527",
         "tab.activeForeground": "#7cb518", // primary
         "tab.activeBorderTop": "#7cb518", // primary
-        "tab.inactiveBackground": "#12171f",
+        "tab.inactiveBackground": "#1A1A1C",
         "tab.inactiveForeground": "#9AA3AD",
-        "tab.hoverBackground": "#1F232B",
+        "tab.hoverBackground": "#2C2C2E",
         "tab.border": "#0F1115",
         // Code editor
-        "editor.background": "#1A1B1E", // background
+        "editor.background": "#151517",
         "editor.foreground": "#D6DAE0",
-        "editor.selectionBackground": "#3B82F64D",
-        "editor.selectionHighlightBackground": "#3B82F626",
-        "editor.findMatchBackground": "#10459b59",
-        "editor.findMatchHighlightBackground": "#3B82F626",
-        "editor.wordHighlightBackground": "#3B82F61A",
+        "editor.selectionBackground": "#7cb51840",
+        "editor.selectionHighlightBackground": "#7cb51820",
+        "editor.findMatchBackground": "#7cb51859",
+        "editor.findMatchHighlightBackground": "#7cb51820",
+        "editor.wordHighlightBackground": "#7cb5181A",
         "editorCursor.foreground": "#7cb518", // primary
         // Borders between editors (tabs)
-        "editorGroup.border": "#1C2027",
+        "editorGroup.border": "#252527",
         "editorGroupHeader.border": "#00000000",
         "editorGroupHeader.tabsBackground": "#00000000",
         // Bottom panel (Terminal, Problems, Output, etc.)
-        "panel.background": "#131416", // background + 1
-        "panel.border": "#1C2027",
+        "panel.background": "#141416", // darker than --depth
+        "panel.border": "#252527",
         // Bottom status bar
         "statusBar.background": "#0F1115",
         "statusBar.border": "#20232A",
@@ -60,7 +60,7 @@
         "list.hoverBackground": "#0F1115",
         "list.activeSelectionBackground": "#7cb51850", // primary
         "list.inactiveSelectionBackground": "#7cb51820", // primary
-        "list.focusBackground": "#1F2630",
+        "list.focusBackground": "#252527",
         // Scrollbars
         "scrollbarSlider.background": "#7cb51890", // primary
         "scrollbarSlider.hoverBackground": "#7cb51850", // primary
@@ -113,7 +113,8 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#FFDE9D"
+                "foreground": "#FFDE9D",
+                "fontStyle": "italic"
             }
         },
         {

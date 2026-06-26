@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "Laiqon Graphite",
+    "name": "Laiqon Sapphire",
     "type": "dark",
     "include": "./base/dark_plus.json",
     "colors": {
@@ -11,37 +11,37 @@
         // Activity bar icons
         "activityBar.border": "#0F1115",
         "activityBar.background": "#0F1115",
-        "activityBar.foreground": "#F7C359", // primary
+        "activityBar.foreground": "#0D71FD", // primary
         "activityBar.inactiveForeground": "#D6DAE0",
-        "activityBar.activeBorder": "#F7C359", // primary
-        "activityBarBadge.background": "#F7C359", // primary
+        "activityBar.activeBorder": "#0D71FD", // primary
+        "activityBarBadge.background": "#0D71FD", // primary
         "activityBarBadge.foreground": "#FFFFFF",
         // Breadcrumb path
         "breadcrumb.background": "#252527",
         "breadcrumb.foreground": "#6C727F",
-        "breadcrumb.focusForeground": "#F7C359", // primary
-        "breadcrumb.activeSelectionForeground": "#F7C359", // primary
+        "breadcrumb.focusForeground": "#0D71FD", // primary
+        "breadcrumb.activeSelectionForeground": "#0D71FD", // primary
         // Sidebar (Explorer, etc.)
-        "sideBar.background": "#1D1912",
+        "sideBar.background": "#15191F",
         "sideBar.border": "#0F1115",
         "sideBarSectionHeader.border": "#0F1115",
         // Tabs
         "tab.activeBackground": "#252527",
-        "tab.activeForeground": "#F7C359", // primary
-        "tab.activeBorderTop": "#F7C359", // primary
+        "tab.activeForeground": "#0D71FD", // primary
+        "tab.activeBorderTop": "#0D71FD", // primary
         "tab.inactiveBackground": "#1A1A1C",
         "tab.inactiveForeground": "#9AA3AD",
         "tab.hoverBackground": "#2C2C2E",
         "tab.border": "#0F1115",
         // Code editor
-        "editor.background": "#0D0902",
+        "editor.background": "#05090F",
         "editor.foreground": "#D6DAE0",
-        "editor.selectionBackground": "#F7C35940",
-        "editor.selectionHighlightBackground": "#F7C35920",
-        "editor.findMatchBackground": "#F7C35959",
-        "editor.findMatchHighlightBackground": "#F7C35920",
-        "editor.wordHighlightBackground": "#F7C3591A",
-        "editorCursor.foreground": "#F7C359", // primary
+        "editor.selectionBackground": "#0D71FD40",
+        "editor.selectionHighlightBackground": "#0D71FD20",
+        "editor.findMatchBackground": "#0D71FD59",
+        "editor.findMatchHighlightBackground": "#0D71FD20",
+        "editor.wordHighlightBackground": "#0D71FD1A",
+        "editorCursor.foreground": "#0D71FD", // primary
         // Borders between editors (tabs)
         "editorGroup.border": "#252527",
         "editorGroupHeader.border": "#00000000",
@@ -54,19 +54,19 @@
         "statusBar.border": "#20232A",
         "statusBar.foreground": "#9AA3AD",
         "statusBar.noFolderBackground": "#0F1115",
-        "statusBar.debuggingBackground": "#F7C359", // primary
-        "statusBar.debuggingForeground": "#0F1115",
+        "statusBar.debuggingBackground": "#0D71FD", // primary
+        "statusBar.debuggingForeground": "#fdfdfd",
         // Lists (File Explorer, etc.)
         "list.hoverBackground": "#0F1115",
-        "list.activeSelectionBackground": "#F7C35950", // primary
-        "list.inactiveSelectionBackground": "#F7C35920", // primary
+        "list.activeSelectionBackground": "#0D71FD50", // primary
+        "list.inactiveSelectionBackground": "#0D71FD20", // primary
         "list.focusBackground": "#252527",
         // Scrollbars
-        "scrollbarSlider.background": "#F7C35990", // primary
-        "scrollbarSlider.hoverBackground": "#F7C35950", // primary
-        "scrollbarSlider.activeBackground": "#F7C35980", // primary
+        "scrollbarSlider.background": "#0D71FD90", // primary
+        "scrollbarSlider.hoverBackground": "#0D71FD50", // primary
+        "scrollbarSlider.activeBackground": "#0D71FD80", // primary
         // Buttons
-        "button.background": "#F7C35950", // primary
+        "button.background": "#0D71FD50", // primary
         "button.foreground": "#FFFFFF",
         "dropdown.background": "#0F1115",
         "input.background": "#0F1115",
