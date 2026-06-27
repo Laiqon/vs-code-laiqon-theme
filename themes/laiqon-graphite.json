@@ -165,7 +165,7 @@
                 "string.template"
             ],
             "settings": {
-                "foreground": "#6d904a",
+                "foreground": "#7aab52",
             }
         },
         // ─── STRING INTERPOLATION ─────────────────────────────────────
@@ -177,7 +177,7 @@
                 "string.template meta.template.expression"
             ],
             "settings": {
-                "foreground": "#6d904a",
+                "foreground": "#7aab52",
                 "fontStyle": ""
             }
         },
@@ -203,7 +203,7 @@
                 "entity.name.variable.field"
             ],
             "settings": {
-                "foreground": "#B89AC8"
+                "foreground": "#C084D4"
             }
         },
         // ─── VARIABLES ───────────────────────────────────────────────
@@ -229,7 +229,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#D4887A"
+                "foreground": "#E8A87C"
             }
         },
         // ─── ATTRIBUTES (C# / decorators) ────────────────────────────
@@ -244,7 +244,7 @@
                 "meta.decorator variable.other"
             ],
             "settings": {
-                "foreground": "#A870A0"
+                "foreground": "#BC78BC"
             }
         },
         // ─── JSX TAGS (html elements) ────────────────────────────────
